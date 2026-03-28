@@ -1,11 +1,23 @@
+# 本地环境变量配置（包含敏感信息或本地路径）
+.env
+
 # 抓取日志
 fetch.log
 
 # 抓取进度
 progress.json
 
-# HTML缓存文件（原始抓取内容，体积较大）
-html_source/
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 工具文件夹
+Access_wechat_article/
+
+# 文章数据文件夹（体积大，单独管理）
+太阳照常升起/
 
 # 系统文件
 .DS_Store
